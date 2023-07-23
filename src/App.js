@@ -16,7 +16,7 @@ function App() {
 
 const images = [];
 
-const displayFact = e => {
+function displayFact(e) {
   const animalName = e.target.alt;
   const randomIndex = Math.floor(Math.random() * animals[animalName].facts.length);
   const fact = animals[animalName].facts[randomIndex];
