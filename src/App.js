@@ -1,4 +1,3 @@
-import React from 'react';
 import ocean from './images/ocean.jpeg';
 import { animals } from './animals';
 import './App.css';
